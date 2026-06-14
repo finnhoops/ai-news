@@ -25,10 +25,11 @@ export const SECTORS: Record<string, SectorConfig> = {
     accent: '#00ff9d',
     description: 'AI disrupting fintech, trading, banking, and investment',
     feeds: [
-      'https://www.ft.com/rss/home',
-      'https://feeds.feedburner.com/forbes/technology',
       'https://venturebeat.com/category/ai/feed/',
-      'https://techcrunch.com/category/fintech/feed/',
+      'https://techcrunch.com/tag/artificial-intelligence/feed/',
+      'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
+      'https://www.wired.com/feed/category/artificial-intelligence/latest/rss',
+      'https://www.technologyreview.com/feed/',
     ],
   },
   software: {
@@ -38,11 +39,11 @@ export const SECTORS: Record<string, SectorConfig> = {
     accent: '#7c3aed',
     description: 'AI in developer tools, coding assistants, and the software industry',
     feeds: [
+      'https://venturebeat.com/category/ai/feed/',
       'https://techcrunch.com/tag/artificial-intelligence/feed/',
+      'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
+      'https://www.wired.com/feed/category/artificial-intelligence/latest/rss',
       'https://github.blog/feed/',
-      'https://feeds.feedburner.com/HighScalability',
-      'https://news.ycombinator.com/rss',
-      'https://feeds.arstechnica.com/arstechnica/technology-lab',
     ],
   },
   healthcare: {
@@ -55,7 +56,8 @@ export const SECTORS: Record<string, SectorConfig> = {
       'https://www.statnews.com/feed/',
       'https://www.healthcareitnews.com/rss.xml',
       'https://venturebeat.com/category/ai/feed/',
-      'https://www.fiercehealthcare.com/rss/xml',
+      'https://www.technologyreview.com/feed/',
+      'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
     ],
   },
   education: {
@@ -66,9 +68,10 @@ export const SECTORS: Record<string, SectorConfig> = {
     description: 'AI reshaping tutoring, curriculum design, and ed-tech platforms',
     feeds: [
       'https://edsurge.com/rss',
-      'https://www.edtechmagazine.com/k12/rss.xml',
       'https://venturebeat.com/category/ai/feed/',
-      'https://techcrunch.com/tag/edtech/feed/',
+      'https://techcrunch.com/tag/artificial-intelligence/feed/',
+      'https://www.technologyreview.com/feed/',
+      'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
     ],
   },
   marketing: {
@@ -81,7 +84,8 @@ export const SECTORS: Record<string, SectorConfig> = {
       'https://marketingaiinstitute.com/blog/rss.xml',
       'https://digiday.com/feed/',
       'https://www.searchenginejournal.com/feed/',
-      'https://adage.com/rss.xml',
+      'https://venturebeat.com/category/ai/feed/',
+      'https://www.wired.com/feed/category/artificial-intelligence/latest/rss',
     ],
   },
   freelance: {
@@ -93,8 +97,8 @@ export const SECTORS: Record<string, SectorConfig> = {
     feeds: [
       'https://www.indiehackers.com/feed.xml',
       'https://www.producthunt.com/feed?category=artificial-intelligence',
-      'https://rss.beehiiv.com/feeds/newsletter',
-      'https://feeds.feedburner.com/NoCodeWeekly',
+      'https://venturebeat.com/category/ai/feed/',
+      'https://techcrunch.com/tag/artificial-intelligence/feed/',
     ],
   },
   fun: {
@@ -104,10 +108,10 @@ export const SECTORS: Record<string, SectorConfig> = {
     accent: '#a855f7',
     description: 'Quirky experiments, creative hacks, and delightfully strange AI projects',
     feeds: [
-      'https://www.producthunt.com/feed?category=artificial-intelligence',
-      'https://news.ycombinator.com/showrss',
       'https://aiweirdness.com/rss',
-      'https://venturebeat.com/category/ai/feed/',
+      'https://news.ycombinator.com/showrss',
+      'https://www.producthunt.com/feed?category=artificial-intelligence',
+      'https://www.wired.com/feed/category/artificial-intelligence/latest/rss',
     ],
   },
 }
